@@ -2,34 +2,27 @@ import csv
 import pandas as pd 
 
 sub_files = [
-                #'/kaggle/input/20230301rwz-mlhw1/pred.csv',
-                '/kaggle/input/20230329rwz-mlhw/Vgg.csv',
-                '/kaggle/input/20230329rwz-mlhw/Vgg13.csv',
-                '/kaggle/input/20230329rwz-mlhw/resnet18.csv',
-                '/kaggle/input/20230329rwz-mlhw2/cnn.csv',
-                #'/kaggle/input/20230329rwz-mlhw3/submission.csv',
-                '/kaggle/input/20230329rwz-mlhw4/submission (1).csv',
-                '/kaggle/input/20230329rwz-mlhw4/submission.csv',
+                '../input/416submission793/submission (68).csv',
+                '../input/416submission723/submission (70).csv',
+                '../input/submission767maybe/submission (72).csv',
+                '../input/submission783/submission (71).csv',
+                
 ]
 
 # Weights of the individual subs
 sub_weight = [
-                #0.81685**3,
-                0.846**2,
-                0.84066**2,
-                0.86066**2,
-                0.64466**9,
-                #0.87333**3,
-                0.794**6.5,
-                0.77133**7,
+                0.793**3,
+                0.723**1.3,
+                0.767**3.8,
+                0.783**3,
+    
             ]
 
 
 
-
-Hlabel = 'Id' 
-Htarget = 'Category'
-npt = 1
+Hlabel = 'image' 
+Htarget = 'predictions'
+npt = 6
 place_weights = {}
 for i in range(npt):
     place_weights[i] = (1 / (i + 1))
