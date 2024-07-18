@@ -9,7 +9,7 @@ This repository contains the code and processes for identifying individual whale
    - Encode labels using `LabelEncoder` and convert them to one-hot encoding.
 
 2. **Feature Extraction with EfficientNet**:
-   - Utilize EfficientNet as a feature extractor with pre-trained weights.
+   - Utilize “EfficientNet” as a feature extractor with pre-trained weights.
    - Remove the top layers and add custom layers for classification.
 
 3. **Training the Model**:
