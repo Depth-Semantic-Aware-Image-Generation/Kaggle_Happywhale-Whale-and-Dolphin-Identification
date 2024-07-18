@@ -1,6 +1,9 @@
 # Kaggle_Happywhale Whale and Dolphin Identification
 This repository contains the code and processes for identifying individual whales and dolphins using deep learning models.
 
+![show1 Image](data/show1.png)
+![show2 Image](data/show2.png)
+
 ## Preparation and Process
 
 1. **Data Loading and Preprocessing**:
@@ -27,6 +30,8 @@ This repository contains the code and processes for identifying individual whale
 6. **Ensemble Method**:
    - Combine predictions from multiple trained models using an "ensemble" method.
    - Perform weighted averaging of predictions to improve accuracy.
+
+![show3 Image](data/show3.png)
 
 ## Citation:
 If you find this code is useful in your research, please consider to cite:
