@@ -24,6 +24,10 @@ This repository contains the code and processes for identifying individual whale
    - Assess model performance on validation data.
    - Generate a CSV file with test predictions for Kaggle submission.
 
+6. **Ensemble Method**:
+   - Combine predictions from multiple trained models using an "ensemble method".
+   - Perform weighted averaging of predictions to improve accuracy.
+
 ## Citation:
 If you find this code is useful in your research, please consider to cite:
 
