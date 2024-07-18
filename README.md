@@ -21,7 +21,7 @@ This repository contains the code and processes for identifying individual whale
 
 4. **Prediction with KNN**:
    - Extract features from test images using the trained EfficientNet model.
-   - Train a "KNN model" on the training features and predict test features' categories.
+   - Train a "KNN" model on the training features and predict test features' categories.
 
 5. **Evaluation and Submission**:
    - Assess model performance on validation data.
