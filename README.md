@@ -13,12 +13,12 @@ This repository contains the code and processes for identifying individual whale
    - Remove the top layers and add custom layers for classification.
 
 3. **Training the Model**:
-   - Train the model on TPU using Adam optimizer and ArcFace loss.
+   - Train the model on TPU using Adam optimizer and "ArcFace loss".
    - Evaluate the model's performance on validation data.
 
 4. **Prediction with KNN**:
    - Extract features from test images using the trained EfficientNet model.
-   - Train a KNN model on the training features and predict test features' categories.
+   - Train a "KNN model" on the training features and predict test features' categories.
 
 5. **Evaluation and Submission**:
    - Assess model performance on validation data.
