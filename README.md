@@ -13,7 +13,7 @@ This repository contains the code and processes for identifying individual whale
    - Remove the top layers and add custom layers for classification.
 
 3. **Training the Model**:
-   - Train the model on TPU using Adam optimizer and "ArcFace loss".
+   - Train the model on TPU using Adam optimizer and "ArcFace" loss.
    - Evaluate the model's performance on validation data.
 
 4. **Prediction with KNN**:
@@ -25,7 +25,7 @@ This repository contains the code and processes for identifying individual whale
    - Generate a CSV file with test predictions for Kaggle submission.
 
 6. **Ensemble Method**:
-   - Combine predictions from multiple trained models using an "ensemble method".
+   - Combine predictions from multiple trained models using an "ensemble" method.
    - Perform weighted averaging of predictions to improve accuracy.
 
 ## Citation:
